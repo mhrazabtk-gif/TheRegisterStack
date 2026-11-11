@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://the-register-stack.pages.dev';
+const DOMAIN = 'https://the-register-stack.pageaura.xyz';
 const KEY = '72cc6dd3d5b542efa6680e8242421dc5';
 
 const ROOT = __dirname;
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'the-register-stack.pages.dev' ||
+    url.hostname.toLowerCase() !== 'the-register-stack.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
