@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'the-register-stack.pages.dev';
+const HOST = 'the-register-stack.pageaura.xyz';
 const KEY = '72cc6dd3d5b542efa6680e8242421dc5';
-const KEY_LOCATION = `https://the-register-stack.pages.dev/72cc6dd3d5b542efa6680e8242421dc5.txt`;
+const KEY_LOCATION = `https://the-register-stack.pageaura.xyz/72cc6dd3d5b542efa6680e8242421dc5.txt`;
 
 const urlsFile = path.join(__dirname, 'urls.txt');
 let urlList = [];
